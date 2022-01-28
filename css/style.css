@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.logo ul {
+    font-size: 0;
+}
+
+.logo li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px 15px;
+    border-right-width: 2px;
+    font-size: 18px;
+}
+
+.logo li a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.debug header {
+    background-color: pink;
+    /*height: 130px;*/
+    
+}
+
+
+.debug .main--yellow {
+    height: 500px;
+    margin: 20px 0px;
+    background-color: rgb(244 220 136);
+}
+
+.debug .main--blue {
+    height: 640px;
+    margin: 20px 0px;
+    background-color: rgb(39, 81, 158);
+}
+
+.debug .header-blue {
+    height: 100px;
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(133, 168, 233);
+}
+
+.debug .blue-left{
+    height: 500px;
+    width: 15%;
+    margin: 0px 15px 20px 0px;
+    background-color: rgb(133, 168, 233);
+    float: left;
+}
+
+
+.debug .blue-center {
+    height: 500px;
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(133, 168, 233);
+    float: left;
+    width: 68%;
+}
+
+.debug .blue-right {
+    height: 500px;
+    width: 15%;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(133, 168, 233);
+    float: right;
+}
+
+.debug footer {
+    background-color: rgb(110, 52, 116);
+    height: 100px;   
+}
