@@ -56,59 +56,93 @@ main {
     position: relative;
     top: 650px;
     padding-left: 30px;
-}
-
-.debug header {
-    /*background-color: pink;*/
-    /*height: 130px;*/
+    display: inline-block;
+    width: 50%;
     
 }
 
-
-/*.debug .main--yellow {
-    height: 500px;
-    margin: 20px 0px;
-    background-color: rgb(244 220 136);
-}*/
-
-.debug .main--blue {
-    height: 640px;
-    margin: 20px 0px;
-    background-color: rgb(39, 81, 158);
+.second-title{
+    font-size: 50px;
+    font-weight: bolder;
 }
 
-.debug .header-blue {
-    height: 100px;
-    margin: 0px 0px 20px 0px;
-    background-color: rgb(133, 168, 233);
+.header-blue p{
+    font-size: 20px;
+    font-weight: lighter;
 }
 
-.debug .blue-left{
+.blue-left{
     height: 500px;
     width: 15%;
-    margin: 0px 10px 20px 0px;
-    background-color: rgb(133, 168, 233);
+    margin: 0% 2% 0% 0%;
     float: left;
 }
 
-
-.debug .blue-center {
-    height: 500px;
-    margin: 0px 10px 20px 0px;
-    background-color: rgb(133, 168, 233);
-    float: left;
-    width: 67%;
+.img-sx{
+    background-image: url(../img/img-1.jpg);
+    height: 50%;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
 }
 
-.debug .blue-right {
+.text-left {
+    margin-top: 20px;
+}
+
+.blue-center {
+    height: 500px;
+    margin:  0% 2% 0% 0%;
+    float: left;
+    width: 66%;}
+
+
+.img-ctr{
+    background-image: url(../img/banner-2.jpg);
+    height: 50%;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+}
+
+.text-ctr {
+    margin-top: 20px;
+}
+
+
+.blue-dx {
     height: 500px;
     width: 15%;
-    margin: 0px 0px 0px 0px;
-    background-color: rgb(133, 168, 233);
-    float:right;
+    float:left;
 }
 
-.debug footer {
-    background-color: rgb(110, 52, 116);
-    height: 100px;   
+.img-dx{
+    background-image: url(../img/img-3.jpg);
+    height: 50%;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
 }
+
+
+.text-dx {
+    margin-top: 20px;
+}
+
+.main--blue p{
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+span{
+    color: tomato;
+}
+
+
+
+
+
+
