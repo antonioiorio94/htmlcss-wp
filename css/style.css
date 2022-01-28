@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Dongle';
 }
 
 .clearfix::after{
@@ -49,6 +50,8 @@ main {
     background-size: cover;
     height: 820px;
     border-radius: 30px;
+    background-position: center;
+    filter: brightness(70%);
     
 }
 
@@ -84,6 +87,7 @@ main {
     background-size: cover;
     border-radius: 30px;
     background-position: center;
+    filter: brightness(70%);
 }
 
 .text-left {
@@ -103,6 +107,7 @@ main {
     background-size: cover;
     border-radius: 30px;
     background-position: center;
+    filter: brightness(70%);
 }
 
 .text-ctr {
@@ -122,6 +127,7 @@ main {
     background-size: cover;
     border-radius: 30px;
     background-position: center;
+    filter: brightness(70%);
 }
 
 
