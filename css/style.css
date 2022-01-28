@@ -42,14 +42,12 @@ main {
 }
 
 
-.first-section{
-    margin: 20px auto;
 
-}
 .big-image{
     height: 500px;
     margin: 20px auto;
-    background-size:cover;
+
+background-size:cover;
     position: absolute;
 }
 
