@@ -43,18 +43,19 @@ main {
 
 
 
-.big-image{
-    height: 500px;
+.big-img{
+    background-image: url(../img/banner.jpg);
     margin: 20px auto;
-
-background-size:cover;
-    position: absolute;
+    background-size: cover;
+    height: 820px;
+    border-radius: 30px;
+    
 }
 
 .title{
     position: relative;
-    top: 370px;
-    left: 50px;
+    top: 650px;
+    padding-left: 30px;
 }
 
 .debug header {
