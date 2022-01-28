@@ -37,6 +37,27 @@ header li a {
     color: grey;
 }
 
+main {
+    margin: 20px auto;
+}
+
+
+.first-section{
+    margin: 20px auto;
+
+}
+.big-image{
+    height: 500px;
+    margin: 20px auto;
+    background-size:cover;
+    position: absolute;
+}
+
+.title{
+    position: relative;
+    top: 370px;
+    left: 50px;
+}
 
 .debug header {
     /*background-color: pink;*/
@@ -45,11 +66,11 @@ header li a {
 }
 
 
-.debug .main--yellow {
+/*.debug .main--yellow {
     height: 500px;
     margin: 20px 0px;
     background-color: rgb(244 220 136);
-}
+}*/
 
 .debug .main--blue {
     height: 640px;
@@ -66,7 +87,7 @@ header li a {
 .debug .blue-left{
     height: 500px;
     width: 15%;
-    margin: 0px 15px 20px 0px;
+    margin: 0px 10px 20px 0px;
     background-color: rgb(133, 168, 233);
     float: left;
 }
@@ -74,10 +95,10 @@ header li a {
 
 .debug .blue-center {
     height: 500px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 10px 20px 0px;
     background-color: rgb(133, 168, 233);
     float: left;
-    width: 68%;
+    width: 67%;
 }
 
 .debug .blue-right {
@@ -85,7 +106,7 @@ header li a {
     width: 15%;
     margin: 0px 0px 0px 0px;
     background-color: rgb(133, 168, 233);
-    float: right;
+    float:right;
 }
 
 .debug footer {
